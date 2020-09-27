@@ -8,6 +8,9 @@
 import SwiftUI
 
 @available(iOS 13.0, *)
+
+/// A SwiftUI Checkbox View
+/// - Parameters
 struct TFLCheckbox: View {
     
     @Binding var isChecked: Bool
