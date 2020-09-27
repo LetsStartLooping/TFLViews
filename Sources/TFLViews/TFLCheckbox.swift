@@ -11,11 +11,11 @@ import SwiftUI
 
 /// A SwiftUI Checkbox View
 /// - Parameters
-struct TFLCheckbox: View {
+public struct TFLCheckbox: View {
     
     @Binding var isChecked: Bool
     
-    var body: some View {
+    public var body: some View {
       Circle()
         .padding(4)
         .overlay(
